@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Random Colors Everywhere",
+    "version": "1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "script.js"
+            ]
+            
+        }
+    ]
+}
